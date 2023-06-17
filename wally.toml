@@ -1,0 +1,16 @@
+[package]
+name = "4x8matrix/namespace"
+version = "1.0.0"
+realm = "shared"
+registry = "https://github.com/upliftgames/wally-index"
+licence = "Unlicense"
+authors = ["AsynchronousMatrix"]
+
+description = "A 'Namespace' provides a unique way to navigate the Roblox environment"
+
+exclude = ["**"]
+include = ["Source", "Source/*", "default.project.json", "wally.lock", "wally.toml", "LICENCE", "README.md"]
+
+# [dev-dependencies]
+# TestEz = "roblox/testez@0.4.1"
+# EmoticonReporter = "4x8matrix/emoticon-reporter@1.0.0"
